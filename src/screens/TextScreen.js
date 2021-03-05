@@ -5,7 +5,7 @@ const TextScreen = () => {
     const [name, setName] = useState('')
     return (
     <View>
-        <Text>Your name</Text>
+        <Text>What is your name?/Text>
         <TextInput 
         style = {styles.input} 
         autoCapitalize="none"
@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
     input: {
         margin: 15,
         borderColor: 'black',
-        borderWidth: 1 
+        borderWidth: 2 
     }
 });
 
